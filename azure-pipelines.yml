@@ -11,7 +11,6 @@ stages:
       vmImage: 'Ubuntu-16.04'
       demands:
         - npm
-
     variables:
       wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
       dotnetSdkVersion: '2.1.505'
